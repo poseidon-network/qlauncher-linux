@@ -16,5 +16,5 @@ sudo ./qlauncher start &
 ## Stop server
 ```bash
 cd ~/qlauncher
-sudo ./qlauncher stop &
+sudo ./qlauncher stop
 ```
