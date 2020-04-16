@@ -1,7 +1,7 @@
 <h1 align="center">qlauncher-linux</h1>
 
 #### Diagram
-![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/diagram.png?raw=true)
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/diagram2.1.png?raw=true)
 
 ## Installation
 
