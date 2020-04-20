@@ -1,4 +1,4 @@
-<h1 align="center">qlauncher-linux</h1>
+<h1 align="center">QLauncher on Linux</h1>
 
 #### Diagram
 ![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/diagram2.1.png?raw=true)
