@@ -193,3 +193,4 @@ Please copy and paste URL to your browser: https://poseidon.network/qlauncher/?s
 
 # User Support
 * [GitHub issues](https://github.com/poseidon-network/qlauncher-linux/issues) for bug reports and feature requests.
+* Tweet directly to @QQQToken
