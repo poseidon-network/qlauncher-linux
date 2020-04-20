@@ -139,3 +139,41 @@ If QLauncher is installed successfully, you will get the following output:
 "qlk_app_version":"0.2.2.0",
 "ota_vmer_user":"coderkk"}
 ```
+
+
+### Check running Qservices on QLauncher
+```
+cd ~/qlauncher
+root@ql-linux-test:~/qlauncher# ./qlauncher.sh status
+```
+
+You'll get the following output:
+```
+CONTAINER ID        IMAGE                                                        COMMAND                  CREATED             STATUS              PORTS                      NAMES
+2387bd602a66        docker-registry.poseidon.network/qservice-fluentd            "tini -- /fluentd/en…"   29 seconds ago      Up 28 seconds                                  k8s_fluentd_fluentd-x86-lfmlb_default_a2b75e7a-f5c9-4efe-84d4-3d00d3563521_0
+6a88b9dbbd18        docker-registry.poseidon.network/qservice-v2ray              "sh /v2ray/entrypoin…"   29 seconds ago      Up 28 seconds                                  k8s_v2ray_v2ray-x86-w4hc7_default_b706f5c4-e600-44d8-974f-b3d194e4863f_0
+bedfc617016a        docker-registry.poseidon.network/qlauncher-sysinfo-updater   "/bin/sh -c /app/ent…"   29 seconds ago      Up 28 seconds                                  k8s_sysinfo_sysinfo-x86-x86-sssft_default_285ee6ef-f869-440e-a5f5-ffb6c80ec0dd_0
+b427e06d06da        fab3ec9905aa                                                 "FAHClient --web-all…"   29 seconds ago      Up 28 seconds                                  k8s_folding-at-home_folding-at-home-9ltbs_default_638038aa-3775-4c5f-8579-de8fe3ce82d3_0
+a83554525d93        kubeedge/pause:3.1                                           "/pause"                 31 seconds ago      Up 29 seconds       0.0.0.0:32443->32443/tcp   k8s_POD_v2ray-x86-w4hc7_default_b706f5c4-e600-44d8-974f-b3d194e4863f_0
+74810fc9b0f2        kubeedge/pause:3.1                                           "/pause"                 31 seconds ago      Up 29 seconds                                  k8s_POD_fluentd-x86-lfmlb_default_a2b75e7a-f5c9-4efe-84d4-3d00d3563521_0
+c5a914a393e9        kubeedge/pause:3.1                                           "/pause"                 31 seconds ago      Up 29 seconds                                  k8s_POD_sysinfo-x86-x86-sssft_default_285ee6ef-f869-440e-a5f5-ffb6c80ec0dd_0
+56aa09aad445        kubeedge/pause:3.1                                           "/pause"                 31 seconds ago      Up 29 seconds       0.0.0.0:32448->7396/tcp    k8s_POD_folding-at-home-9ltbs_default_638038aa-3775-4c5f-8579-de8fe3ce82d3_0
+root@ql-linux-test:~/qlauncher#
+```
+
+### Monitor QLauncher via QQQ App
+#### Download QQQ App and register your account
+* Download QQQ App on [App Store](https://apps.apple.com/tt/app/qqq-app/id1468063328)
+* Download QQQ App on [Google Play](https://play.google.com/store/apps/details?id=network.poseidon.qqq.app)
+
+#### Get QRcode
+```
+cd ~/qlauncher
+./qlauncher.sh bind
+```
+You will get a page link as below :
+```
+Please copy and paste URL to your browser: https://poseidon.network/qlauncher/?sn=beb217fbb4324b7d9959f78c279e6599
+```
+
+#### Scan the QRcode in the page via QQQ app
