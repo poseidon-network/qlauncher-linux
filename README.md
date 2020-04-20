@@ -7,12 +7,25 @@ If you'd like to become one of Poseidon Miners, QLauncher is built for you to ad
 
 You can visit [About Poseidon](https://poseidon.network) for more information.
 
+# Linux & Docker versions supported by QLauncher
+### Linux
+* Ubuntu 18.04.4
+* CentOS 8
+* RHEL 8
+
+### Docker
+* Docker Version 19.03.6
 
 
-#### Diagram
-![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/diagram2.1.png?raw=true)
+# How QLauncher Works
+### Features
+* Poseidon k8s cluster : Collect & dispatch device resources (such as Storage, Bandwidth, CPU) through Poseidon k8s cluster
+* system analyzer : Analyze resources shared by the device
+* life cycle manager : Check if the device works properly
+* OTA : Painless update QLauncher
 
-## Installation
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/diagram2.1.png?raw=true "QL diagram")
+
 
 #### qlauncher-linux
 ```bash
