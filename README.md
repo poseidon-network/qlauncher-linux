@@ -71,11 +71,6 @@ sudo ./qlauncher.sh stop
 ```
 You'll get the following output:
 ```
-## Stop server
-    cd ~/qlauncher
-    sudo ./qlauncher.sh stop
-    
-    ### Output
     2020-04-19-13-30-35 Stop QLauncherK
     2020-04-19-13-30-35 Detect sudo/root user
     2020-04-19-13-30-35 https://edms.poseidon.network/v1/qlauncher/edgecore
