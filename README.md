@@ -46,18 +46,24 @@ wget https://github.com/poseidon-network/qlauncher-linux/releases/download/0.2.4
 tar -vxzf app.tar.gz -C ~/qlauncher/
 ```
 
-#### qlauncher-linux
-```bash
-mkdir ~/qlauncher
-wget https://github.com/poseidon-network/qlauncher-linux/releases/download/0.2.3.0/app.tar.gz -o app.tar.gz
-tar -vxzf app.tar.gz -C ~/qlauncher/
+# Usage
+### Start QLauncher
+```cd ~/qlauncher
+./qlauncher.sh start
+```
+You'll get the following output:
+```
+2020-04-19-13-26-24 Start QLauncherK
+2020-04-19-13-26-24 Detect sudo/root user
+2020-04-19-13-26-24 Detect docker
+2020-04-19-13-26-24 Stop edgecore service
+2020-04-19-13-26-24 Start edgecore service
+2020-04-19-13-26-24 Request ID from server: {"hwsn":"beb217fbb4324b7d9959f78c279e6599","os":"linux","machine_type":"x86_64"}
+2020-04-19-13-26-37 Start timer
 ```
 
-#### Start server
-```bash
-cd ~/qlauncher
-sudo ./qlauncher start &
-```
+
+
 
 #### Stop server
 ```bash
