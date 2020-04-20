@@ -5,8 +5,8 @@ Poseidon Miners could install **QLauncher** to their IoT devices as nodes of Pos
 
 If you'd like to become one of Poseidon Miners, QLauncher is built for you to add your devices as nodes of Poseidon Network.
 
-You can visit [About Poseidon][]for more information.
-[About Poseidon]: https//poseidon.network
+You can visit [About Poseidon](https://poseidon.network) for more information.
+
 
 
 #### Diagram
