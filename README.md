@@ -139,12 +139,12 @@ cd ~/qlauncher
 If QLauncher is installed successfully, you will get the following output:
 ```
 {"UTC_TIME":"202004191321",
-"hwsn":"6028c479ea47871f5ac7c5bc0f5c983f",
-"qlk_app_version":"0.2.4.0",
+"hwsn":"bebxxxxxxxxxxxxx99",
+"qlk_app_version":"0.2.2.0",
 "ota_vmer_user":"coderkk"}
 ```
 
-![image](image/check_service.png)
+![image](image/checkInstall.jpg)
 
 
 ### Check running Qservices on QLauncher
@@ -156,7 +156,6 @@ root@ql-linux-test:~/qlauncher# ./qlauncher.sh status
 You'll get the following output:
 ```
 CONTAINER ID        IMAGE                                                        COMMAND                  CREATED             STATUS              PORTS                      NAMES
-
 2387bd602a66        docker-registry.poseidon.network/qservice-fluentd            "tini -- /fluentd/en…"   29 seconds ago      Up 28 seconds                                  k8s_fluentd_fluentd-x86-lfmlb_default_a2b75e7a-f5c9-4efe-84d4-3d00d3563521_0
 6a88b9dbbd18        docker-registry.poseidon.network/qservice-v2ray              "sh /v2ray/entrypoin…"   29 seconds ago      Up 28 seconds                                  k8s_v2ray_v2ray-x86-w4hc7_default_b706f5c4-e600-44d8-974f-b3d194e4863f_0
 bedfc617016a        docker-registry.poseidon.network/qlauncher-sysinfo-updater   "/bin/sh -c /app/ent…"   29 seconds ago      Up 28 seconds                                  k8s_sysinfo_sysinfo-x86-x86-sssft_default_285ee6ef-f869-440e-a5f5-ffb6c80ec0dd_0
@@ -165,7 +164,6 @@ a83554525d93        kubeedge/pause:3.1                                          
 74810fc9b0f2        kubeedge/pause:3.1                                           "/pause"                 31 seconds ago      Up 29 seconds                                  k8s_POD_fluentd-x86-lfmlb_default_a2b75e7a-f5c9-4efe-84d4-3d00d3563521_0
 c5a914a393e9        kubeedge/pause:3.1                                           "/pause"                 31 seconds ago      Up 29 seconds                                  k8s_POD_sysinfo-x86-x86-sssft_default_285ee6ef-f869-440e-a5f5-ffb6c80ec0dd_0
 56aa09aad445        kubeedge/pause:3.1                                           "/pause"                 31 seconds ago      Up 29 seconds       0.0.0.0:32448->7396/tcp    k8s_POD_folding-at-home-9ltbs_default_638038aa-3775-4c5f-8579-de8fe3ce82d3_0
-
 root@ql-linux-test:~/qlauncher#
 ```
 
@@ -195,5 +193,5 @@ Please copy and paste URL to your browser: https://poseidon.network/qlauncher/?s
 
 # User Support
 * [GitHub issues](https://github.com/poseidon-network/qlauncher-linux/issues) for bug reports and feature requests.
-* Telegram (EN)  - https://lihi1.com/Zqucw
-* Telegram (中文) - https://lihi1.com/V80CQ
+* [Telegram (EN)](https://lihi1.com/Zqucw) to ask questions, discuss features, and for general discussion.
+* [Telegram (中文)](https://lihi1.com/V80CQ) to ask questions, discuss features, and for general discussion.
