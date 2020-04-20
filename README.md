@@ -62,6 +62,8 @@ You'll get the following output:
 2020-04-19-13-26-37 Start timer
 ```
 
+![image](image/screenshot.3982.jpg)
+
 ### Stop QLauncher
 ```
 cd ~/qlauncher
@@ -126,6 +128,8 @@ You'll get the following output:
 
 ```
 
+![image](image/stopQL.jpg)
+
 
 ### Verify Installation Success
 ```
@@ -139,6 +143,8 @@ If QLauncher is installed successfully, you will get the following output:
 "qlk_app_version":"0.2.2.0",
 "ota_vmer_user":"coderkk"}
 ```
+
+![image](image/checkInstall.jpg)
 
 
 ### Check running Qservices on QLauncher
@@ -161,6 +167,9 @@ c5a914a393e9        kubeedge/pause:3.1                                          
 root@ql-linux-test:~/qlauncher#
 ```
 
+![image](image/checkService.png)
+
+
 ### Monitor QLauncher via QQQ App
 #### Download QQQ App and register your account
 * Download QQQ App on [App Store](https://apps.apple.com/tt/app/qqq-app/id1468063328)
@@ -176,4 +185,7 @@ You will get a page link as below :
 Please copy and paste URL to your browser: https://poseidon.network/qlauncher/?sn=beb217fbb4324b7d9959f78c279e6599
 ```
 
+![image](image/getQRcode.jpg)
+
 #### Scan the QRcode in the page via QQQ app
+![image](image/qrcodePage.png)
