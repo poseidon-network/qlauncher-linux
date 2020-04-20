@@ -188,7 +188,7 @@ Please copy and paste URL to your browser: https://poseidon.network/qlauncher/?s
 ![image](image/getQRcode.jpg)
 
 #### Scan the QRcode in the page via QQQ app
-![image](image/QL_bind page.png)
+![image](image/QL_bind_page.png)
 
 
 # User Support
