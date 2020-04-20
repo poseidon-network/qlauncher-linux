@@ -27,6 +27,25 @@ You can visit [About Poseidon](https://poseidon.network) for more information.
 ![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/diagram2.1.png?raw=true "QL diagram")
 
 
+# Installation
+## Install Docker
+### Ubuntu
+```
+sudo su
+apt-get update
+apt-get install docker.io
+```
+
+### Other Linux Platforms
+Please refer to [Docker Website](https://docs.docker.com/engine/install/)
+
+## Install QLauncher
+```
+mkdir ~/qlauncher
+wget https://github.com/poseidon-network/qlauncher-linux/releases/download/0.2.4.0/ql-linux.tar.gz -O app.tar.gz
+tar -vxzf app.tar.gz -C ~/qlauncher/
+```
+
 #### qlauncher-linux
 ```bash
 mkdir ~/qlauncher
