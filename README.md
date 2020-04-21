@@ -45,7 +45,7 @@ mkdir ~/qlauncher
 wget https://github.com/poseidon-network/qlauncher-linux/releases/download/0.2.4.0/ql-linux.tar.gz -O app.tar.gz
 tar -vxzf app.tar.gz -C ~/qlauncher/
 ```
-☎️ Troubleshooting
+### ☎️ Troubleshooting
 If you encounter `command not found` issue, you could try:
 ```
 apt-get install curl wget net-tools
