@@ -9,7 +9,7 @@ You can visit [About Poseidon](https://poseidon.network) for more information.
 
 # Linux & Docker versions supported by QLauncher
 ### Linux
-* Ubuntu 18.04.4
+* Ubuntu 18.04.4 (Build on server)
 * CentOS 8
 * RHEL 8
 
@@ -44,6 +44,11 @@ Please refer to [Docker Website](https://docs.docker.com/engine/install/)
 mkdir ~/qlauncher
 wget https://github.com/poseidon-network/qlauncher-linux/releases/download/0.2.4.0/ql-linux.tar.gz -O app.tar.gz
 tar -vxzf app.tar.gz -C ~/qlauncher/
+```
+☎️ Troubleshooting
+If you encounter `command not found` issue, you could try:
+```
+apt-get install curl wget net-tools
 ```
 
 # Usage
