@@ -9,14 +9,15 @@ You can visit [About Poseidon](https://poseidon.network) for more information.
 
 # Linux & Docker versions supported by QLauncher
 ### Linux
-* Ubuntu 18.04.4 (Build on server)
+* Ubuntu Server Edition 18.04.4 
 * CentOS 8
 * RHEL 8
 
 ### Docker
 * Docker Version 19.03.6
 
-🙅🏽Notice : Linux installed as a Docker container is not supported
+#### Notice
+🙅🏽 Linux installed as a Docker container is not supported
 
 # How QLauncher Works
 ### Features
@@ -47,7 +48,7 @@ wget https://github.com/poseidon-network/qlauncher-linux/releases/download/0.2.4
 tar -vxzf app.tar.gz -C ~/qlauncher/
 ```
 ### ☎️ Troubleshooting
-If you encounter `command not found` issue, you could try:
+If you encounter `curl:command not found` or `ifconfig : command not found` issue, you could try:
 ```
 apt-get install curl wget net-tools
 ```
