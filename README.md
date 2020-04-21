@@ -55,7 +55,8 @@ apt-get install curl wget net-tools
 
 # Usage
 ### Start QLauncher
-```cd ~/qlauncher
+```
+cd ~/qlauncher
 ./qlauncher.sh start
 ```
 You'll get the following output:
