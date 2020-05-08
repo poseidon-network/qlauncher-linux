@@ -35,7 +35,7 @@ You can visit [About Poseidon](https://poseidon.network) for more information.
 ```
 sudo su
 apt-get update
-apt-get install docker.io
+apt-get install curl wget net-tools docker.io
 ```
 
 * Other Linux Platforms
@@ -46,11 +46,6 @@ Please refer to [Docker Website](https://docs.docker.com/engine/install/)
 mkdir ~/qlauncher
 wget https://github.com/poseidon-network/qlauncher-linux/releases/download/0.2.4.0/ql-linux.tar.gz -O app.tar.gz
 tar -vxzf app.tar.gz -C ~/qlauncher/
-```
-### ☎️ Troubleshooting
-If you encounter `curl:command not found` or `ifconfig : command not found` issue, you could try:
-```
-apt-get install curl wget net-tools
 ```
 
 # Usage
