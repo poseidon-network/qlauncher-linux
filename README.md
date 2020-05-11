@@ -146,6 +146,7 @@ If QLauncher is installed successfully, you will get the following output:
 
 
 ### Check running Qservices on QLauncher
+🟢 Notice : Please open ports 32440-32449 to ensure the Qservices work well.
 ```
 cd ~/qlauncher
 root@ql-linux-test:~/qlauncher# ./qlauncher.sh status
