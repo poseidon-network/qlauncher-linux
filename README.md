@@ -17,7 +17,7 @@ You can visit [About Poseidon](https://poseidon.network) for more information.
 * Docker Version 19.03.6
 
 #### Notice
-🙅🏽 Linux installed as a Docker container is not supported
+🙅🏽 Linux installed as a Docker container is **Not** supported
 
 # How QLauncher Works
 ### Features
