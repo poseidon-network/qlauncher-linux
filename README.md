@@ -146,7 +146,8 @@ If QLauncher is installed successfully, you will get the following output:
 
 
 ### Check running Qservices on QLauncher
-🟢 Notice : Please open ports from 32440 to 32449 to ensure the Qservices work well. You can use [port scanner](https://portscanner.standingtech.com) to check if the port is open.
+🟢 Notice : Please configure ports from 32440 to 32449 to ensure the Qservices work well. You can use [port scanner](https://portscanner.standingtech.com) to check if the port is open.
+[Port configuration guide](https://github.com/poseidon-network/qlauncher-linux/blob/master/Port-configuration.md)
 ```
 cd ~/qlauncher
 root@ql-linux-test:~/qlauncher# ./qlauncher.sh status
