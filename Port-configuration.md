@@ -24,9 +24,8 @@
 
 
 ### GCP
-[https://cloud.google.com/vpc/docs/using-firewalls](https://cloud.google.com/vpc/docs/using-firewalls)
 
-**configure specified port 32440-32440**
+   **Configure specified port 32440-32440**
 
 * To show all firewall rules for all networks in your project:
 
@@ -42,4 +41,6 @@
       * VPC Network → Firewall rules → Create Firewall rule →   
       * Protocols and ports → Specified protocols and ports → TCP `32440-32449` 
      
-     <img src= "https://github.com/poseidon-network/qlauncher-linux/blob/master/image/GCP%20VPC%20Network.png" width="50%" height="50%" alt="VCP Network" /><img src= "https://github.com/poseidon-network/qlauncher-linux/blob/master/image/GCP%20Ports.png?raw=true" width="40%" height="40%" alt="tcp 32440-32449" />
+        <img src= "https://github.com/poseidon-network/qlauncher-linux/blob/master/image/GCP%20VPC%20Network.png" width="50%" height="50%" alt="VCP Network" /><img src= "https://github.com/poseidon-network/qlauncher-linux/blob/master/image/GCP%20Ports.png?raw=true" width="50%" height="50%" alt="tcp 32440-32449" />  
+           
+           [Using firewall rules](https://cloud.google.com/vpc/docs/using-firewalls)
