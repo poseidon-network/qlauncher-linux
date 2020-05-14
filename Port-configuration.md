@@ -8,14 +8,14 @@
   1. [authorize-security-group-ingress](https://docs.aws.amazon.com/cli/latest/reference/ec2/authorize-security-group-ingress.html) (AWS CLI)
   
      ```
-     aws ec2 authorize-security-group-ingress --group-id security_group_id --protocol tcp --port 22 --cidr cidr_ip_range
+     aws ec2 authorize-security-group-ingress --group-id security_group_id --protocol tcp --port 32440-32449 --cidr cidr_ip_range
      ```
   2. Grant-EC2SecurityGroupIngress (AWS Tools for Windows PowerShell)
 
       The Grant-EC2SecurityGroupIngress command needs an IpPermission parameter, which describes the protocol, **port range**, and IP address range to be used for the security group rule. The following command creates the IpPermission parameter:
 
       ```
-      PS C:\> $ip1 = @{ IpProtocol="tcp"; FromPort="22"; ToPort="22"; IpRanges="cidr_ip_range" }
+      PS C:\> $ip1 = @{ IpProtocol="tcp"; FromPort="32440"; ToPort="32449"; IpRanges="cidr_ip_range" }
       ```
       ```
       PS C:\> Grant-EC2SecurityGroupIngress -GroupId security_group_id -IpPermission @($ip1)
