@@ -183,7 +183,7 @@ ExecStop=/root/qlauncher/qlauncher.sh stop
 [Install]
 WantedBy=multi-user.target
 ```
-* Step2. Enable QLauncher as system service
+* Step2. Enable QLauncher as a system service
 ```
 sudo systemctl daemon-reload
 sudo systemctl enable qlauncher
