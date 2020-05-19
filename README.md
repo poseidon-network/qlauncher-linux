@@ -171,7 +171,7 @@ root@ql-linux-test:~/qlauncher#
 
 ### How to run QLauncher on system startup
 If you'd like to automatically run QLauncher after rebooting your device, you could try the following steps :
-* Step1. Create config file with root privilege at `/etc/systemd/system/qlauncher.service` with content below: 
+* Step1. Create config file with root privilege at `/etc/systemd/system/qlauncher.service` with content below:  
 (Notice : Please replace /root/qlauncher with actual installation path)
 ```
 [Unit]
