@@ -180,6 +180,7 @@ Description=qlauncher.service
 Type=simple
 ExecStart=/root/qlauncher/qlauncher.sh start
 ExecStop=/root/qlauncher/qlauncher.sh stop
+RemainAfterExit=yes
 [Install]
 WantedBy=multi-user.target
 ```
