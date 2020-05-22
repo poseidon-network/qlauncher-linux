@@ -44,7 +44,7 @@ Please refer to [Docker Website](https://docs.docker.com/engine/install/)
 ### Install QLauncher
 ```
 mkdir ~/qlauncher
-wget https://github.com/poseidon-network/qlauncher-linux/releases/latest/download/ql-linux.tar.gz
+wget https://github.com/poseidon-network/qlauncher-linux/releases/latest/download/ql-linux.tar.gz -o app.tar.gz
 tar -vxzf app.tar.gz -C ~/qlauncher/
 ```
 
