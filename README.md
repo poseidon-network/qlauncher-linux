@@ -48,6 +48,12 @@ wget https://github.com/poseidon-network/qlauncher-linux/releases/latest/downloa
 tar -vxzf app.tar.gz -C ~/qlauncher/
 ```
 
+#### For synology
+You need to run this command
+```
+sudo mount --make-rshared /
+sudo mount --make-rshared /volumn1/
+```
 # Usage
 ### Start QLauncher
 ```
