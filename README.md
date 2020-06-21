@@ -52,7 +52,7 @@ tar -vxzf app.tar.gz -C ~/qlauncher/
 You need to run this command
 ```
 sudo mount --make-rshared /
-sudo mount --make-rshared /volumn1/
+sudo mount --make-rshared /volume1/
 ```
 # Usage
 ### Start QLauncher
