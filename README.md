@@ -156,7 +156,7 @@ If QLauncher is installed successfully, you will get the following output:
 
 ```
 cd ~/qlauncher
-root@ql-linux-test:~/qlauncher# ./qlauncher.sh status
+./qlauncher.sh status
 ```
 
 You'll get the following output:
