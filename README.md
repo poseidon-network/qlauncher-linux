@@ -39,8 +39,7 @@ apt-get install curl wget net-tools docker.io
 ```
 
 * Other Linux Platforms
-Please refer to [Docker Website](https://docs.docker.com/engine/install/)
-
+Please refer to [Docker Website](https://docs.docker.com/engine/install/) or use [Installation Script](https://github.com/docker/docker-install)
 ### Install QLauncher
 ```
 mkdir ~/qlauncher
