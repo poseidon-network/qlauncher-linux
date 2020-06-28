@@ -12,6 +12,7 @@ You can visit [About Poseidon](https://poseidon.network) for more information.
 * Ubuntu Server Edition 18.04.4 
 * CentOS 8
 * RHEL 8
+* Raspberry Pi 4
 
 ### Docker
 * Docker Version 19.03.6
