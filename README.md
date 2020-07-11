@@ -200,8 +200,8 @@ sudo systemctl start qlauncher
 
 ### Monitor QLauncher via QQQ App
 #### Download QQQ App and register your account
-* Download QQQ App on [App Store](https://apps.apple.com/tt/app/qqq-app/id1468063328)
-* Download QQQ App on [Google Play](https://play.google.com/store/apps/details?id=network.poseidon.qqq.app)
+* Download QQQ App on [App Store](https://apps.apple.com/tw/app/qqq-earn-tokens-by-sharing/id1517441531?l=en)
+* Download QQQ App on [Google Play](https://play.google.com/store/apps/details?id=network.poseidon.qqqapp)
 
 #### Get QRcode
 ```
