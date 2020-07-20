@@ -35,7 +35,7 @@ You can visit [About Poseidon](https://poseidon.network) for more information.
 ```
 sudo su
 apt-get update
-apt-get install curl wget net-tools docker.io
+apt-get install curl wget net-tools dmidecode docker.io
 ```
 
 * Other Linux Platforms
