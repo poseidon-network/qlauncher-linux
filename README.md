@@ -25,7 +25,7 @@ You can visit [About Poseidon](https://poseidon.network) for more information.
     * 64-bit version of one of these Ubuntu versions (20.04 is preferred)
     * Kernel version > 5
 
-🙅‍♂️ Linux installed as a Docker container is NOT supported
+🙅‍♂️ Linux installed as a Docker container is NOT supported.
 
 If your device is Raspberry Pi 4, please set up before you installing QLauncher 👉
 [Prepare for Raspberry Pi 4](https://poseidon.network)
