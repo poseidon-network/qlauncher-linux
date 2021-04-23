@@ -1,33 +1,31 @@
 <h1 align="center">QLauncher on Linux</h1>
 
 # What is QLauncher
-Poseidon Miners could install **QLauncher** to their IoT devices as nodes of Poseidon Network. After QLauncher installed, when **Service Providers** pay Cryptocurrency for using **QServices**, Poseidon Miners could earn **QQQ tokens** in realtime via **PoD**, which is a mechanism for recording usage and earnings of node resources (such as Bandwidth, CPU, Storage) to Ethereum.
+Everyone can install QLauncher on their IoT device to share unused storage capacity and bandwidth to the Poseidon network to earn cryptocurrency income.
+If you'd like to become one of Poseidon Miners and earn income through your devices , QLauncher is built for you to join your devices to the nodes of Poseidon Network.
 
-If you'd like to become one of Poseidon Miners, QLauncher is built for you to add your devices as nodes of Poseidon Network.
-
-You can visit [About Poseidon](https://poseidon.network) for more information.
-
-# Linux & Docker versions supported by QLauncher
-### Linux
-* Ubuntu Server Edition 18.04.4 
-* CentOS 8
-* RHEL 8
-* Raspberry Pi 4
-
-### Docker
-* Docker Version 19.03.6
-
-#### Notice
-🙅🏽 Linux installed as a Docker container is **NOT** supported
+You can visit [About Poseidon](https://poseidon.network) for more information.
 
 # How QLauncher Works
-### Features
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/diagram2.1.png?raw=true "QL diagram")
 * Poseidon k8s cluster : Collect & dispatch device resources (such as Storage, Bandwidth, CPU) through Poseidon k8s cluster
 * system analyzer : Analyze resources shared by the device
 * life cycle manager : Check if the device works properly
 * OTA : Painless update QLauncher
 
-![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/diagram2.1.png?raw=true "QL diagram")
+# Before You Begin
+## Hardware Requirements (Recommended)
+* One processor core (x86-64bit) dedicated to each node service
+* Minimum of 500 GB with no maximum of available space per node
+* Minimum of 100 Mbps bandwidth upstream
+
+## System Requirements
+### Linux-based 
+* Ubuntu (Recommended)
+    * 64-bit version of one of these Ubuntu versions (20.04 is preferred)
+    * Kernel version > 5
+
+🙅‍♂️ Linux installed as a Docker container is NOT supported
 
 
 # Installation
