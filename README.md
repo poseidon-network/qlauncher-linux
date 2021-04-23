@@ -6,7 +6,7 @@ If you'd like to become one of Poseidon Miners and earn income through your devi
 
 You can visit [About Poseidon](https://poseidon.network) for more information.
 
-#E How QLauncher Works
+## How QLauncher Works
 ![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/diagram2.1.png?raw=true "QL diagram")
 * Poseidon k8s cluster : Collect & dispatch device resources (such as Storage, Bandwidth, CPU) through Poseidon k8s cluster
 * system analyzer : Analyze resources shared by the device
