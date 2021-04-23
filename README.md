@@ -65,20 +65,22 @@ You need to ensure that all the following check items are running normally to be
 sudo systemctl status qlauncher
 ```
 If you see the running status of QLauncher is "active (running)",  it means that QLauncher is installed successfully and started to run on your device :
-![image]()
+
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_status.png)
+
 Then, `ctrl+z` to go to next step.
 
 * Get QLauncher Info
 ```
 sudo /opt/qlauncherV2/qlauncher.sh check
 ```
-![image]()
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_check.png)
 
 * Check Running Status of Containers
 ```
 /opt/qlauncherV2/qlauncher.sh status
 ```
-![image]()
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_pods.png)
 
 ## If you fail to install QLauncher, you can try to :
 ### Restart QLauncher
