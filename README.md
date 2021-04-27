@@ -22,7 +22,7 @@ You can visit [About Poseidon](https://poseidon.network) for more information.
 ### System Requirements
 **Linux-based**
 * Ubuntu (Recommended)
-    * 64-bit version of one of these Ubuntu versions (20.04 is preferred)
+    * 64-bit version of one of these Ubuntu versions (20.04 Desktop / 20.04 Server is preferred)
     * Kernel version > 5
 
 🙅‍♂️ Linux installed as a Docker container is NOT supported
