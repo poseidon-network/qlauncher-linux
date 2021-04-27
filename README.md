@@ -106,7 +106,7 @@ Start QLauncher
 ```
 
 ## How to get my crypto income as a contribution reward ?
-Our miner contribution reward rule will change with each test phase, please join our [miner community](https://lihi1.com/bQ0hC) or [check the current test phase](https://lihi1.com/YjWzj) here.
+Our miner contribution reward rule will change with each test phase, please join our [miner community](https://lihi1.com/W5LBu) or [check the current test phase](https://lihi1.com/YjWzj) here.
 
 
 
