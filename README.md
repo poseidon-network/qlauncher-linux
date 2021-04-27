@@ -28,7 +28,7 @@ You can visit [About Poseidon](https://poseidon.network) for more information.
 🙅‍♂️ Linux installed as a Docker container is NOT supported
 
 If your device is Raspberry Pi 4, please set up before you installing QLauncher 👉
-[Prepare for Raspberry Pi 4](https://github.com/poseidon-network/qlauncher-linux/blob/master/Port-configuration.md)
+[Prepare for Raspberry Pi 4](https://github.com/poseidon-network/qlauncher-linux/blob/master/Prepare%20for%20Raspberry%20Pi.md)
 
 ### Install Network Tool
 To setup a Node, you first must have Docker installed. Install Docker by following the appropriate installation guide for your OS.
