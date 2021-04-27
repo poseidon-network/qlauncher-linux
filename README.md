@@ -112,4 +112,4 @@ Our miner contribution reward rule will change with each test phase, please join
 
 ## Need Help?
 * [GitHub issues](https://github.com/poseidon-network/qlauncher-linux/issues) for bug reports and feature requests.
-* [Join our community](https://poseidon.network) to ask questions, discuss features, and for general discussion.
+* [Join our community](https://lihi1.com/W5LBu) to ask questions, discuss features, and for general discussion.
