@@ -43,7 +43,7 @@ apt-get install curl wget net-tools
 Please configure ports ([Port configuration guide](https://github.com/poseidon-network/qlauncher-linux/blob/master/Port-configuration.md)) from 32440 to 32449 to ensure the containers work well. You can use [port scanner](https://portscanner.standingtech.com) to check if the port is open.
 
 ### Uninstall Old Version of QLauncher
-If you have installed a version of QLauncher less than 0.2.5.0 on your device, please uninstall it first to avoid installation failure when installing a new version of QLauncher.
+If you have installed a version of QLauncher less than 0.2.5.1 on your device, please uninstall it first to avoid installation failure when installing a new version of QLauncher.
 ```
 sudo -i
 cd /root/qlauncher/
