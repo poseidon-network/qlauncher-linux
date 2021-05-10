@@ -61,6 +61,8 @@ curl -sfL https://get.qlauncher.poseidon.network/install.sh | sh -
 ```
 Then, set the storage space you're willing to contribute :
 
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_shared.png)
+
 
 
 ### Step2. Check if QLauncher has been successfully installed
