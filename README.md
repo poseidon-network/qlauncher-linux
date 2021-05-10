@@ -59,6 +59,10 @@ sudo rm -R qlauncher
 sudo su
 curl -sfL https://get.qlauncher.poseidon.network/install.sh | sh -
 ```
+Then, set the storage space you're willing to contribute :
+
+
+
 ### Step2. Check if QLauncher has been successfully installed
 You need to ensure that all the following check items are running normally to be considered as a successful installation: 
 * Check Running Status of QLauncher 
