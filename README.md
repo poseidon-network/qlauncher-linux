@@ -15,9 +15,10 @@ You can visit [About Poseidon](https://poseidon.network) for more information.
 
 ## Before You Begin
 ### Hardware Requirements (Recommended)
-* One processor core (x86-64bit) dedicated to each node service
-* Minimum of 500 GB with no maximum of available space per node
-* Minimum of 100 Mbps bandwidth upstream
+* Two processor core (x86-64bit) dedicated to each node service
+* Minimum of 8GB RAM
+* Minimum of 512GB with no maximum of available space per node
+* Minimum of 100Mbps bandwidth upstream
 
 ### System Requirements
 **Linux-based**
@@ -53,11 +54,17 @@ sudo rm -R qlauncher
 ```
 
 ## Let's start installing QLauncher 
-## Step1. Install QLauncher
+## Step1. Install QLauncher & Set shared storage capacity
 ```
 sudo su
 curl -sfL https://get.qlauncher.poseidon.network/install.sh | sh -
 ```
+Then, set the storage space you're willing to contribute :
+
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_shared.png)
+
+
+
 ### Step2. Check if QLauncher has been successfully installed
 You need to ensure that all the following check items are running normally to be considered as a successful installation: 
 * Check Running Status of QLauncher 
