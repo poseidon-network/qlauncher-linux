@@ -54,7 +54,7 @@ sudo rm -R qlauncher
 ```
 
 ## Let's start installing QLauncher 
-## Step1. Install QLauncher & Set shared storage capacity
+### Step1. Install QLauncher & Set shared storage capacity
 ```
 sudo su
 curl -sfL https://get.qlauncher.poseidon.network/install.sh | sh -
@@ -95,7 +95,6 @@ sudo /opt/qlauncherV2/qlauncher.sh check
 sudo systemctl restart qlauncher
 ```
 **Uninstall and install QLauncher again**
-Uninstall
 ```
 sudo /opt/qlauncherV2/qlauncher.sh uninstall
 sudo rm -R /opt/qlauncherV2/
