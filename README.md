@@ -89,6 +89,19 @@ sudo /opt/qlauncherV2/qlauncher.sh check
 ```
 ![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_pods.png)
 
+### Step3. Get QRcode and add device to QQQ APP
+```
+/opt/qlauncherV2/qlauncher.sh bind
+```
+![image](https://user-images.githubusercontent.com/48922178/122953984-a2dd0d00-d3b1-11eb-8dfb-8b15ca62b14b.png)
+
+Scan the QRcode to add your QLauncher to the QQQ app.
+
+You can successfully add your device to QQQ app if your QLauncher runs properly. In the app, you will see a device added :
+
+![image](https://user-images.githubusercontent.com/48922178/122954262-dddf4080-d3b1-11eb-8c44-896f6b2f4b1f.png)
+
+
 ## If you fail to install QLauncher, you can try to :
 ### Restart QLauncher
 ```
