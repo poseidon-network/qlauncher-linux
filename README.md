@@ -99,7 +99,7 @@ Scan the QRcode to add your QLauncher to the QQQ app.
 
 You can successfully add your device to QQQ app if your QLauncher runs properly. In the app, you will see a device added :
 
-![image](https://user-images.githubusercontent.com/48922178/122954262-dddf4080-d3b1-11eb-8c44-896f6b2f4b1f.png)<img src="https://user-images.githubusercontent.com/48922178/122954262-dddf4080-d3b1-11eb-8c44-896f6b2f4b1f.png" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/48922178/122954262-dddf4080-d3b1-11eb-8c44-896f6b2f4b1f.png" width="20%" height="20%">
 
 
 
