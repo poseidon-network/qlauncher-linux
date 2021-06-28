@@ -105,7 +105,7 @@ You can successfully add your device to QQQ app if your QLauncher runs properly.
 
 
 ## If you fail to install QLauncher, you can try to :
-### Restart QLauncher
+**Restart QLauncher**
 ```
 sudo systemctl restart qlauncher
 ```
