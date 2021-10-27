@@ -127,10 +127,10 @@ Start QLauncher
 ```
 
 ## How to get my crypto income as a contribution reward ?
-Our miner contribution reward rule will change with each test phase, please join our [miner community](https://lihi1.com/W5LBu) or [check the current test phase](https://lihi1.cc/2TMY8) here.
+Our miner contribution reward rule will change with each test phase, please join our [miner community](https://discord.com/invite/8DzbJG5WVt) or [check the current test phase](https://lihi1.cc/2TMY8) here.
 
 
 
 ## Need Help?
 * [GitHub issues](https://github.com/poseidon-network/qlauncher-linux/issues) for bug reports and feature requests.
-* [Join our community](https://lihi1.com/W5LBu) to ask questions, discuss features, and for general discussion.
+* [Join our community](https://discord.com/invite/8DzbJG5WVt) to ask questions, discuss features, and for general discussion.
