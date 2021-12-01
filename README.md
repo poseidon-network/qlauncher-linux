@@ -15,10 +15,10 @@ You can visit [About Poseidon](https://poseidon.network) for more information.
 
 ## Before You Begin
 ### Hardware Requirements (Recommended)
-* Two processor core (x86-64bit) dedicated to each node service
+* 4 processor cores (x86-64bit) dedicated to each node service
 * Minimum of 8GB RAM
-* Minimum of 512GB with no maximum of available space per node
-* Minimum of 100Mbps bandwidth upstream
+* Minimum of 1TB with no maximum of available space per node
+* Minimum of 40Mbps bandwidth upstream and downstream
 
 ### System Requirements
 **Linux-based**
@@ -57,12 +57,15 @@ sudo rm -R qlauncher
 ### Step1. Install QLauncher & Set shared storage capacity
 ```
 sudo su
-curl -sfL https://get.qlauncher.poseidon.network/install.sh | sh -
+sh -c "$(curl -sfL https://get.qlauncher.poseidon.network/install-v3.sh)"
 ```
 Then, set the storage space you're willing to contribute :
 
-![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_shared.png)
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_shared_v2.png)
 
+>Notice: Repeat installation is not allowed and will received warning message as below, please uninstall first.
+
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/Repear_installation.png)
 
 
 ### Step2. Check if QLauncher has been successfully installed
@@ -79,21 +82,21 @@ Then, `ctrl+z` to go to next step.
 
 * Get QLauncher Info
 ```
-sudo /opt/qlauncherV2/qlauncher.sh check
+sudo /opt/qlauncherV3/qlauncher check
 ```
-![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_check.png)
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_info.png)
 
 * Check Running Status of Containers
 ```
-/opt/qlauncherV2/qlauncher.sh status
+/opt/qlauncherV3/qlauncher status
 ```
-![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_pods.png)
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/Container_status.png)
 
 ### Step3. Get QRcode and add device to QQQ APP
 ```
-/opt/qlauncherV2/qlauncher.sh bind
+/opt/qlauncherV3/qlauncher bind
 ```
-![image](https://user-images.githubusercontent.com/48922178/122953984-a2dd0d00-d3b1-11eb-8dfb-8b15ca62b14b.png)
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/Bind_V3.png)
 
 Scan the QRcode to add your QLauncher to the QQQ app.
 
@@ -109,22 +112,33 @@ You can successfully add your device to QQQ app if your QLauncher runs properly.
 ```
 sudo systemctl restart qlauncher
 ```
-**Uninstall and install QLauncher again**
+**Uninstall QLauncher**
+* For qlauncherV2
 ```
 sudo /opt/qlauncherV2/qlauncher.sh uninstall
 sudo rm -R /opt/qlauncherV2/
 ```
+* For qlauncherV3
+```
+sudo /opt/qlauncherV3/qlauncher uninstall
+sudo rm -R /opt/qlauncherV3/
+```
+Once uninstalled, go back to install again
 
 ## If you want to temporarily stop QLauncher running :
 Stop QLauncher
 ```
-/opt/qlauncherV2/qlauncher.sh stop
+/opt/qlauncherV3/qlauncher stop
 ```
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/Stop_QLauncher.png)
 
 Start QLauncher
 ```
-/opt/qlauncherV2/qlauncher.sh start
+sudo systemctl restart qlauncher
 ```
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/Restart_QLauncher.png)
+
+* We recommend Check Running Status of QLauncher again after restart
 
 ## How to get my crypto income as a contribution reward ?
 Our miner contribution reward rule will change with each test phase, please join our [miner community](https://discord.com/invite/8DzbJG5WVt) or [check the current test phase](https://lihi1.cc/2TMY8) here.
