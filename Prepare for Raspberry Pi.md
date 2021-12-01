@@ -1,5 +1,7 @@
 # Prepare for Raspberry PI
 
+<strong><em>At the moment, QLauncher only supports to Raspberry Pi arm64 and amd64</em></strong>
+
 ### Enabling cgroups for Raspbian Buster
 Standard Raspbian Buster installations do not start with `cgroups` enabled. **QLauncher** needs `cgroups` to start the systemd service. `cgroups` can be enabled by appending `cgroup_memory=1 cgroup_enable=memory` to `/boot/cmdline.txt`.
 
