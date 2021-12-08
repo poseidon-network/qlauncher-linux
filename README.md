@@ -44,7 +44,10 @@ apt-get install curl wget net-tools
 Please configure ports ([Port configuration guide](https://github.com/poseidon-network/qlauncher-linux/blob/master/Port-configuration.md)) from 32440 to 32449 to ensure the containers work well. You can use [port scanner](https://portscanner.standingtech.com) to check if the port is open.
 
 ### Uninstall Old Version of QLauncher
-If you have installed a version of QLauncher less than 0.2.5.1 on your device, please uninstall it first to avoid installation failure when installing a new version of QLauncher.
+Please uninstall old version first to avoid installation failure when installing a new version of QLauncher
+
+* For QLauncher less than 0.2.5.1
+
 ```
 sudo -i
 cd /root/qlauncher/
@@ -52,6 +55,18 @@ sudo ./qlauncher.sh stop
 cd ..
 sudo rm -R qlauncher
 ```
+
+* For qlauncherV2
+```
+sudo /opt/qlauncherV2/qlauncher.sh uninstall
+sudo rm -R /opt/qlauncherV2/
+```
+* For qlauncherV3
+```
+sudo /opt/qlauncherV3/qlauncher uninstall
+sudo rm -R /opt/qlauncherV3/
+```
+
 
 ## Let's start installing QLauncher 
 ### Step1. Install QLauncher & Set shared storage capacity
@@ -113,6 +128,17 @@ You can successfully add your device to QQQ app if your QLauncher runs properly.
 sudo systemctl restart qlauncher
 ```
 **Uninstall QLauncher**
+
+* For QLauncher less than 0.2.5.1
+
+```
+sudo -i
+cd /root/qlauncher/
+sudo ./qlauncher.sh stop
+cd ..
+sudo rm -R qlauncher
+```
+
 * For qlauncherV2
 ```
 sudo /opt/qlauncherV2/qlauncher.sh uninstall
