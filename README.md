@@ -84,6 +84,10 @@ Then, set the storage space you're willing to contribute :
 ![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/Repear_installation.png)
 
 #### For 0.4.0.2 QLauncher users, here is the patch directly to 0.4.0.3
+* Install patch binary
+```
+sh -c "$(curl -sfL https://get.qlauncher.poseidon.network/install-v3.sh)" -s skipinstall=1
+```
 You need to stop QLauncher first to install patch binary, else you will see the alert as shown below
 ![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/Stop_QL_to_patch.png)
 After binary downloaded, you will have to restart your QLauncher
