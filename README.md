@@ -46,6 +46,7 @@ Please configure ports ([Port configuration guide](https://github.com/poseidon-n
 ### Uninstall Old Version of QLauncher
 Please uninstall old version first to avoid installation failure when installing a new version of QLauncher
 
+<em>Notice: currently, [reinstalling of QLauncher may affects your mining reward](https://github.com/poseidon-network/qlauncher-linux/issues/41)</em>
 * For QLauncher less than 0.2.5.1
 
 ```
@@ -82,6 +83,14 @@ Then, set the storage space you're willing to contribute :
 
 ![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/Repear_installation.png)
 
+#### For 0.4.0.2 QLauncher users, here is the patch directly to 0.4.0.3
+You need to stop QLauncher first to install patch binary, else you will see the alert as shown below
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/Stop_QL_to_patch.png)
+After binary downloaded, you will have to restart your QLauncher
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/Restart_QL.png)
+
+<em>No need to rebind on QQQ App if you already did. Node SN was generated based on OS not on QLauncher version. We automatically update the node information sent to our system</em>
+
 
 ### Step2. Check if QLauncher has been successfully installed
 You need to ensure that all the following check items are running normally to be considered as a successful installation: 
@@ -99,7 +108,7 @@ Then, `ctrl+z` to go to next step.
 ```
 sudo /opt/qlauncherV3/qlauncher check
 ```
-![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_info.png)
+![image](https://github.com/poseidon-network/qlauncher-linux/blob/master/image/QL_info_0.4.0.3.png)
 
 * Check Running Status of Containers
 ```
